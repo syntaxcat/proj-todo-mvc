@@ -1,0 +1,46 @@
+body {
+	background-color: #ffb3c1;
+}
+
+.todo-filter {
+	background-color: #ff8fa3;
+	padding: 5px;
+}
+.todo-stat {
+	background-color: #9fdbf3;
+	padding: 5px;
+	margin: 5px;
+}
+
+.todo-stat span {
+	color: #ff4d6d;
+	font-weight: bold;
+}
+
+.done {
+	text-decoration: line-through;
+}
+
+.filter-options {
+	display: inline-block;
+}
+
+.filter-options button {
+	background-color: #d8e2dc;
+	border: none;
+	padding: 3px;
+}
+
+.filter-options button.selected {
+	border: 3px solid red;
+}
+
+.todo-list button {
+	width: 2rem;
+	height: 2rem;
+	display: inline-flex;
+}
+
+input[name="importance"] {
+	width: 7rem;
+}
